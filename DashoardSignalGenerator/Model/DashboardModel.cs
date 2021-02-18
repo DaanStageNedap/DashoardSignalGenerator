@@ -95,7 +95,7 @@ namespace DashoardSignalGenerator.Model
             }
             set
             {
-                if (value > 0.5)
+                if (value >= 0.5)
                 {
                     this.stepSeconds = value;
                 }

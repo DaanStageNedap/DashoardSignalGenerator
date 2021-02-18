@@ -32,9 +32,7 @@ namespace DashoardSignalGenerator
             this.panel1 = new System.Windows.Forms.Panel();
             this.labelstatus = new System.Windows.Forms.Label();
             this.CheckBoxAutomatic = new System.Windows.Forms.CheckBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.buttonstartt = new System.Windows.Forms.Button();
-            this.ButtenStop = new System.Windows.Forms.Button();
             this.TxtSpeedSecondsFreq = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.TxtBoxIncreaseFreq = new System.Windows.Forms.TextBox();
@@ -46,7 +44,6 @@ namespace DashoardSignalGenerator
             this.txtStartFreq = new System.Windows.Forms.TextBox();
             this.txtLevel = new System.Windows.Forms.TextBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.lblCurrentFreq = new System.Windows.Forms.Label();
             this.lblIndex = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -55,12 +52,9 @@ namespace DashoardSignalGenerator
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.panel1.Controls.Add(this.lblIndex);
-            this.panel1.Controls.Add(this.lblCurrentFreq);
             this.panel1.Controls.Add(this.labelstatus);
             this.panel1.Controls.Add(this.CheckBoxAutomatic);
-            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.buttonstartt);
-            this.panel1.Controls.Add(this.ButtenStop);
             this.panel1.Controls.Add(this.TxtSpeedSecondsFreq);
             this.panel1.Controls.Add(this.label10);
             this.panel1.Controls.Add(this.TxtBoxIncreaseFreq);
@@ -80,7 +74,7 @@ namespace DashoardSignalGenerator
             // labelstatus
             // 
             this.labelstatus.AutoSize = true;
-            this.labelstatus.Location = new System.Drawing.Point(433, 124);
+            this.labelstatus.Location = new System.Drawing.Point(515, 185);
             this.labelstatus.Name = "labelstatus";
             this.labelstatus.Size = new System.Drawing.Size(61, 13);
             this.labelstatus.TabIndex = 28;
@@ -96,15 +90,6 @@ namespace DashoardSignalGenerator
             this.CheckBoxAutomatic.Text = "Automatic";
             this.CheckBoxAutomatic.UseVisualStyleBackColor = true;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(754, 114);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 26;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // buttonstartt
             // 
             this.buttonstartt.Location = new System.Drawing.Point(700, 345);
@@ -114,15 +99,6 @@ namespace DashoardSignalGenerator
             this.buttonstartt.Text = "Active program automtic";
             this.buttonstartt.UseVisualStyleBackColor = true;
             this.buttonstartt.Click += new System.EventHandler(this.buttonstartt_Click);
-            // 
-            // ButtenStop
-            // 
-            this.ButtenStop.Location = new System.Drawing.Point(915, 371);
-            this.ButtenStop.Name = "ButtenStop";
-            this.ButtenStop.Size = new System.Drawing.Size(110, 37);
-            this.ButtenStop.TabIndex = 24;
-            this.ButtenStop.Text = "stop";
-            this.ButtenStop.UseVisualStyleBackColor = true;
             // 
             // TxtSpeedSecondsFreq
             // 
@@ -218,19 +194,10 @@ namespace DashoardSignalGenerator
             this.flowLayoutPanel1.Size = new System.Drawing.Size(8, 8);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
-            // lblCurrentFreq
-            // 
-            this.lblCurrentFreq.AutoSize = true;
-            this.lblCurrentFreq.Location = new System.Drawing.Point(436, 175);
-            this.lblCurrentFreq.Name = "lblCurrentFreq";
-            this.lblCurrentFreq.Size = new System.Drawing.Size(35, 13);
-            this.lblCurrentFreq.TabIndex = 29;
-            this.lblCurrentFreq.Text = "label3";
-            // 
             // lblIndex
             // 
             this.lblIndex.AutoSize = true;
-            this.lblIndex.Location = new System.Drawing.Point(749, 175);
+            this.lblIndex.Location = new System.Drawing.Point(515, 148);
             this.lblIndex.Name = "lblIndex";
             this.lblIndex.Size = new System.Drawing.Size(43, 13);
             this.lblIndex.TabIndex = 30;
@@ -254,7 +221,6 @@ namespace DashoardSignalGenerator
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button buttonstartt;
-        private System.Windows.Forms.Button ButtenStop;
         private System.Windows.Forms.TextBox TxtSpeedSecondsFreq;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox TxtBoxIncreaseFreq;
@@ -266,10 +232,8 @@ namespace DashoardSignalGenerator
         private System.Windows.Forms.TextBox txtStartFreq;
         private System.Windows.Forms.TextBox txtLevel;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.CheckBox CheckBoxAutomatic;
         private System.Windows.Forms.Label labelstatus;
-        private System.Windows.Forms.Label lblCurrentFreq;
         private System.Windows.Forms.Label lblIndex;
     }
 }
